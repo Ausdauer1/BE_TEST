@@ -14,4 +14,9 @@ export class AppController {
   getObject(): object {
     return this.appService.getObject();
   }
+
+  @Get('/player/2')
+  getObject2(): object {
+    return this.appService.getObject2();
+  }
 }
